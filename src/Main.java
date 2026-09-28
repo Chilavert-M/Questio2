@@ -9,7 +9,7 @@ void main() {
     //Declarations
     String store;
     int totalSales;
-    String consoleType;
+    
 
 
     System.out.println("Select the beverage type(PS5, XBOX, SWITCH): ");
@@ -18,7 +18,7 @@ void main() {
     System.out.println("3) SWITCH");
     System.out.print("Enter a choice from 1-3: ");
 
-    String consoleType;
+    String consoleType = "";
 
 
     int choice = scanner.nextInt();
