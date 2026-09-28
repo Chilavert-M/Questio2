@@ -10,7 +10,7 @@ void main() {
     System.out.println("1) PS5");
     System.out.println("2) XBOX");
     System.out.println("3) SWITCH");
-    System.out.print("Enter a console type: ");
+    System.out.print("Enter a number from 1-3: ");
 
     String consoleType = " ";
 
