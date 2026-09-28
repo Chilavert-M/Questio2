@@ -34,6 +34,8 @@ void main() {
     System.out.print("Enter the total sales of " + consoleType + " consoles for " + store + ": ");
     totalSales = scanner.nextInt();
 
+    System.out.println();
+
     ConsoleSales consoleSales = new ConsoleSales(consoleType, store, totalSales);
     consoleSales.printConsoleSalesReport();
 }
